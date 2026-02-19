@@ -1,4 +1,5 @@
 # Print Queue Service API
+![Printer API Architecture](https://github.com/10abdulmoid/Printer-api/blob/main/Print%20Queue%20Service%20API.png)
 
 A production-quality .NET 8 ASP.NET Core REST API for managing printers, print queues, and print jobs. This service mimics the core workflow of an enterprise print service backend by handling printer registration, queue management, job submission, and background job processing.
 
