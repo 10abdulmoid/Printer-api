@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Api/PrintQueueService.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Api/PrintQueueService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Api/PrintQueueService.Api.csproj",
+        "projectName": "PrintQueueService.Api",
+        "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Api/PrintQueueService.Api.csproj",
+        "packagesPath": "/Users/abdulmoid/.nuget/packages/",
+        "outputPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulmoid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Application/PrintQueueService.Application.csproj": {
+                "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Application/PrintQueueService.Application.csproj"
+              },
+              "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Infrastructure/PrintQueueService.Infrastructure.csproj": {
+                "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Infrastructure/PrintQueueService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.124/libexec/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Application/PrintQueueService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Application/PrintQueueService.Application.csproj",
+        "projectName": "PrintQueueService.Application",
+        "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Application/PrintQueueService.Application.csproj",
+        "packagesPath": "/Users/abdulmoid/.nuget/packages/",
+        "outputPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulmoid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/PrintQueueService.Domain.csproj": {
+                "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/PrintQueueService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.124/libexec/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/PrintQueueService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/PrintQueueService.Domain.csproj",
+        "projectName": "PrintQueueService.Domain",
+        "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/PrintQueueService.Domain.csproj",
+        "packagesPath": "/Users/abdulmoid/.nuget/packages/",
+        "outputPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulmoid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.124/libexec/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Infrastructure/PrintQueueService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Infrastructure/PrintQueueService.Infrastructure.csproj",
+        "projectName": "PrintQueueService.Infrastructure",
+        "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Infrastructure/PrintQueueService.Infrastructure.csproj",
+        "packagesPath": "/Users/abdulmoid/.nuget/packages/",
+        "outputPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulmoid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Application/PrintQueueService.Application.csproj": {
+                "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Application/PrintQueueService.Application.csproj"
+              },
+              "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/PrintQueueService.Domain.csproj": {
+                "projectPath": "/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/PrintQueueService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.124/libexec/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

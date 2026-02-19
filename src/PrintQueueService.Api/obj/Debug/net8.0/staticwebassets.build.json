@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NxO/KBFcZKCQzJIeUfXYzodp/SmiMo1FpmFX9r2DN9Y=",
+  "Source": "PrintQueueService.Api",
+  "BasePath": "_content/PrintQueueService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

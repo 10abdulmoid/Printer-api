@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AAAB0AA2-6013-4085-9E81-405007E93A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintQueueService.Api", "src\PrintQueueService.Api\PrintQueueService.Api.csproj", "{9A836A6B-0169-409B-9D56-8413A9E690C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintQueueService.Application", "src\PrintQueueService.Application\PrintQueueService.Application.csproj", "{082B102C-E41B-44F5-A3E7-50CE63EECC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintQueueService.Domain", "src\PrintQueueService.Domain\PrintQueueService.Domain.csproj", "{B5E32651-3682-4AFE-B416-F8F82A6F6166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintQueueService.Infrastructure", "src\PrintQueueService.Infrastructure\PrintQueueService.Infrastructure.csproj", "{F610DC40-12D6-4FE1-B220-A73DAF750627}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B48EE8AF-DE6D-4B47-83D9-D29B69CED247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintQueueService.Tests", "tests\PrintQueueService.Tests\PrintQueueService.Tests.csproj", "{7C5FC63C-0367-4E8A-8385-94FAFF240112}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A836A6B-0169-409B-9D56-8413A9E690C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A836A6B-0169-409B-9D56-8413A9E690C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A836A6B-0169-409B-9D56-8413A9E690C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A836A6B-0169-409B-9D56-8413A9E690C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082B102C-E41B-44F5-A3E7-50CE63EECC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082B102C-E41B-44F5-A3E7-50CE63EECC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082B102C-E41B-44F5-A3E7-50CE63EECC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082B102C-E41B-44F5-A3E7-50CE63EECC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E32651-3682-4AFE-B416-F8F82A6F6166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E32651-3682-4AFE-B416-F8F82A6F6166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E32651-3682-4AFE-B416-F8F82A6F6166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E32651-3682-4AFE-B416-F8F82A6F6166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F610DC40-12D6-4FE1-B220-A73DAF750627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F610DC40-12D6-4FE1-B220-A73DAF750627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F610DC40-12D6-4FE1-B220-A73DAF750627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F610DC40-12D6-4FE1-B220-A73DAF750627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5FC63C-0367-4E8A-8385-94FAFF240112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5FC63C-0367-4E8A-8385-94FAFF240112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5FC63C-0367-4E8A-8385-94FAFF240112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5FC63C-0367-4E8A-8385-94FAFF240112}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A836A6B-0169-409B-9D56-8413A9E690C2} = {AAAB0AA2-6013-4085-9E81-405007E93A5F}
+		{082B102C-E41B-44F5-A3E7-50CE63EECC55} = {AAAB0AA2-6013-4085-9E81-405007E93A5F}
+		{B5E32651-3682-4AFE-B416-F8F82A6F6166} = {AAAB0AA2-6013-4085-9E81-405007E93A5F}
+		{F610DC40-12D6-4FE1-B220-A73DAF750627} = {AAAB0AA2-6013-4085-9E81-405007E93A5F}
+		{7C5FC63C-0367-4E8A-8385-94FAFF240112} = {B48EE8AF-DE6D-4B47-83D9-D29B69CED247}
+	EndGlobalSection
+EndGlobal

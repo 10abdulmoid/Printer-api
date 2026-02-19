@@ -1,0 +1,11 @@
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/bin/Debug/net8.0/PrintQueueService.Domain.deps.json
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/bin/Debug/net8.0/PrintQueueService.Domain.dll
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/bin/Debug/net8.0/PrintQueueService.Domain.pdb
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/Debug/net8.0/PrintQueueService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/Debug/net8.0/PrintQueueService.Domain.AssemblyInfoInputs.cache
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/Debug/net8.0/PrintQueueService.Domain.AssemblyInfo.cs
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/Debug/net8.0/PrintQueueService.Domain.csproj.CoreCompileInputs.cache
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/Debug/net8.0/PrintQueueService.Domain.dll
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/Debug/net8.0/refint/PrintQueueService.Domain.dll
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/Debug/net8.0/PrintQueueService.Domain.pdb
+/Users/abdulmoid/Desktop/printer-api/src/PrintQueueService.Domain/obj/Debug/net8.0/ref/PrintQueueService.Domain.dll
